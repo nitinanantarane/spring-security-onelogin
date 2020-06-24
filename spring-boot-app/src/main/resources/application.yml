@@ -1,15 +1,15 @@
 security:
   oauth2:
     client:
-      clientId: your-onelogin-oidc-app-client-id
-      clientSecret: your-onelogin-oidc-app-client-secret
-      accessTokenUri: https://<subdomain>.onelogin.com/oidc/2/token
-      userAuthorizationUri: https://<subdomain>.onelogin.com/oidc/2/auth
+      clientId: 40ebbbf0-97f2-0138-631c-022949de2242172419
+      clientSecret: dd24aab8f8299061a6d72beddbb95e7a109f5a193231663ec71d5f75e516b329
+      accessTokenUri: https://nitinanr-dev.onelogin.com/oidc/2/token
+      userAuthorizationUri: https://nitinanr-dev.onelogin.com/oidc/2/auth
       tokenName: access_token
       authorizedGrantTypes: authorization_code
       scope: openid,profile,email
     resource:
-      userInfoUri: https://<subdomain>.onelogin.com/oidc/2/me
+      userInfoUri: https://nitinanr-dev.onelogin.com/oidc/2/me
 
 server:
   port : 8081
