@@ -2,7 +2,7 @@ security:
   oauth2:
     client:
       clientId: 40ebbbf0-97f2-0138-631c-022949de2242172419
-      clientSecret: dd24aab8f8299061a6d72beddbb95e7a109f5a193231663ec71d5f75e516b329
+      clientSecret: 806ebd8cb34fc55956d93c683fd7b9d54522eb24fde7fe167ac5b6dc0a420b55
       accessTokenUri: https://nitinanr-dev.onelogin.com/oidc/2/token
       userAuthorizationUri: https://nitinanr-dev.onelogin.com/oidc/2/auth
       tokenName: access_token
